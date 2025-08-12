@@ -1,0 +1,17 @@
+Algorithms and Data Structures Used in Caching
+
+    Algorithms: Caching relies on various algorithms to manage the cache's contents. These algorithms, known as cache replacement policies, decide which data to remove when the cache is full. Common examples include:
+
+    Least Recently Used (LRU): Discards the least recently used items first.
+
+First-In, First-Out (FIFO): Evicts the oldest item, regardless of how often it's used.
+
+Least Frequently Used (LFU): Discards the item that has been used the least often.
+
+    Data Structures: To implement these algorithms and store the data, caches often use specific data structures:
+
+        Hash Tables: Used to quickly look up whether a requested item is in the cache.
+
+        Doubly Linked Lists: Often used in conjunction with hash tables for LRU and other replacement policies to keep track of the order of access.
+
+
